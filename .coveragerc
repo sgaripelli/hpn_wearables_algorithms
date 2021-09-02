@@ -1,0 +1,7 @@
+[run]
+
+include =
+    D:/local_dev/cloudRunClassifier/app.py
+    D:/local_dev/cloudRunClassifier/kafka_interface.py
+    D:/local_dev/cloudRunClassifier/exceptions.py
+    D:/local_dev/cloudRunClassifier/inference.py

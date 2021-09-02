@@ -1,0 +1,10 @@
+**/desktop.ini
+__pycache__/*
+.idea/
+output/
+*.iws
+workspace.xml
+tasks.xml
+batch_reprocessing.py
+stopwatch.py
+tests/test_batch_reprocessing.py
