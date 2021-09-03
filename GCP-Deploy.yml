@@ -38,5 +38,5 @@ jobs:
         - name: Push Docker image
           run: docker push $IMAGE_NAME
 
-        - name: Deploy Docker image
+        - name: Deploy Docker image in cloud run
           run: gcloud run deploy ${{ secrets.GCP_PROJECT_ID }} --image $IMAGE_NAME --region us-central1 --platform managed
